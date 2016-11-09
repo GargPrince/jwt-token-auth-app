@@ -27,8 +27,8 @@ app.use(morgan('dev'));
 app.get('/setup', function(req, res) {
 
 	var nick = new User({ 
-		name: 'prince', 
-		password: 'prince123',
+		name: 'JWTByPrince', 
+		password: 'prince',
 		admin: true 
 	});
 	nick.save(function(err) {
